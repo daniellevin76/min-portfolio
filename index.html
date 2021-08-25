@@ -18,7 +18,7 @@
   <header>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-5">
-        <a class="navbar-brand" >My portfolio</a>
+        <a class="navbar-brand">My portfolio</a>
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -101,33 +101,40 @@
       </div>
     </div>
   </section>
-  <footer class="bg-dark">
-    <div class="container py-5">
+
+  <footer>
+
+    <div class="container bg-dark py-5">
       <p class="text-info" id="contact">CONTACT ME</p>
-      <form>
-        <div class="form-group w-50">
-          <label for="exampleFormControlInput1" class="text-white">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
+      <!-- Contact form -->
+
+
+
+
+
+
+      <form action="https://formspree.io/f/myylbqgd" method="POST">
+        <div class="form-group">
+
+          <input type="email" name="_replyto" class="form-control" id="exampleFormControlInput1"
+            placeholder="Email addres">
         </div>
 
-        <label for="exampleFormControlTextarea1" class="text-info">Write me and we'll get back to you!</label>
-        <textarea class="form-control w-75" rows="5"></textarea>
 
-        <button type="button" class="btn btn-info align-self-end">Submit request</button>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1"></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+            placeholder="Enter your message"></textarea>
+        </div>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
       </form>
+
+
+
     </div>
   </footer>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
